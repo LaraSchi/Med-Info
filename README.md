@@ -1,2 +1,2 @@
-# Med-Info
-Dokumentensammlung und nützliche Links
+# Medizininformatik
+Dokumentensammlung und nützliche Links nach Vorlesungen sortiert
