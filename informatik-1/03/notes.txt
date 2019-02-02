@@ -1,0 +1,11 @@
+Kleine Wertetabelle für die 'vereinfachungs' Aufgabe
+
+a b g
+t t f
+t f t
+f t f
+f f t
+
+!b || (a && !a)
+!b || false
+!b
