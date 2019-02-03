@@ -42,7 +42,7 @@ Beim medizinischen Ordnungssystem ICD10 verwendet man in Deutschland die sog. Kr
 Was unterscheidet das medizinische Ordnungssystem von ICD-O-3 vom ICD-10?
 * Beschreiben Sie:
     * inhaltliche Unterschiede 
-    * Unterschiede im strukturellen Aufbau
+    * Unterschiede im strukturellem Aufbau
     der Ordnungssysteme.
 
 ## 5 - Recall and Precision
@@ -202,7 +202,7 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
         * Zentrale Datenbank mit verweisen auf Sub-Systeme
 * Heterogenität:
     * Kein Hersteller bietet alle gewünschten (Sub-)Systeme an
-    * Austausch alter Systeme wäre zu teuer (järliches dazuschalten von neuen Systemen)
+    * Austausch alter Systeme wäre zu teuer (jährliches dazuschalten von neuen Systemen)
     * Andere (Partner)-Krankenhäuser nutzen andere Systeme
 ---
 ## Zu 7 - HL7
@@ -225,10 +225,10 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Pufferung der eingehenden Nachricht (Achtung: Notwendig, da die Nachrichten intern meist als Warteschlange abgearbeitet werden)
     * Protokollierung der eingegangenen Nachrichten zum Zweck der Nachverfolgung
     * Acknowledgement (Quittung als Empfangsbestätigung) an den Absender
-* **Nachrichtenübeprüfung**
+* **Nachrichtenüberprüfung**
     * Überprüfung der Nachrichtensyntax (formale Richtigkeit der Nachricht)
-    * Inhaltliche Identifizierung und Zuordung
-* **Nachrichtenkovertierung**
+    * Inhaltliche Identifizierung und Zuordnung
+* **Nachrichtenkonvertierung**
     * Passend für Subsysteme
     * Benötigt dafür Wissen über Nachrichtentypen usw...
 * **Nachrichtenweiterleitung**
