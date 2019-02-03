@@ -1,2 +1,3 @@
-Zusammenfassung der Medizinischen Terminologie Vorlesung WS18/19
-und Beispiel Präsentationen
+# Medizinische Terminologie
+- Zusammenfassung der Vorlesung Medizinischen Terminologie WS18/19
+- Beispiel Präsentationen
