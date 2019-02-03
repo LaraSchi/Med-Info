@@ -29,4 +29,9 @@ Bezeichnungen benennen können.
 * Fibula, Wadenbein (Unterschenkel, hinten)
 
 ![](https://www.dr-gabriele-lampert.de/Grafik/Anatomie/Bewegungsapparat/Kopf3.gif)
+
+(Bild: dr-gabriele-lampert.de)
+
 ![](http://www.cyberdoktor.de/img/steissbein.jpg)
+
+(Bild: cyberdoktor.de)
