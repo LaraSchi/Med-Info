@@ -38,8 +38,8 @@ Beim medizinischen Ordnungssystem ICD10 verwendet man in Deutschland die sog. Kr
 (Produkt aus x und y)
 * Erklären Sie was man in diesem Zusammenhang unter einem DRG Case Mix und einem Case Mix Index versteht.
 
-## 4 - ICDO-3
-Was unterscheidet das medizinische Ordnungssystem von ICD-O-3 vom ICD-10?
+## 4 - ICD-O-3
+Was unterscheidet das medizinische Ordnungssystem von ICD-O-3 von der ICD-10?
 * Beschreiben Sie:
     * inhaltliche Unterschiede 
     * Unterschiede im strukturellem Aufbau
@@ -138,14 +138,14 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 ## Zu 3 - Erlösberechnung
 * G-DRG-Erlös = **Basisfallwert * Bewertungsrelation** (BR)
 * Basisfallwert:
-    * Landesweit einheitlicher Geldbetrag (ca 3450 €), der bei der Berechnung der DRG-Erlöse für die Krankenhausbehandlung verwendet wird 
+    * Landesweit einheitlicher Geldbetrag (ca 3450 €), der bei der Berechnung der DRG-Erlöse für die Krankenhausbehandlung verwendet wird. 
 * Bewertungsrelation:
     *  Bundesweit gültige Kennzahl, die für jede einzelne G-DRG-Fallgruppe auf Basis einer Kostenkalkulation (erstellt durch Institut für das Entgeldsystem im Krankenhaus) festgelegt wird.
 * Casemix (CM):
     * **Summe** der Bewertungsrelationen BR aller innerhalb einer Zeiteinheit abgerechneten Fälle (1 bis n): CM = BR1 + BR2 + … + BRn
 * Casemix-Index (CMI):
     * Casemix geteilt durch die Zahl der abgerechneten Fälle n: CMI = CM / n  
-    * Mittlere Bewertungsrelation als Kennzahl
+    * **Mittlere Bewertungsrelation** als Kennzahl
 ---
 ## Zu 4 - ICD-O-3
 ### Inhaltliche Unterschiede:
