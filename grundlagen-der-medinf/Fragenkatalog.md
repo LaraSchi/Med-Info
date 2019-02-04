@@ -30,7 +30,7 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 Beim medizinischen Ordnungssystem ICD10 verwendet man in Deutschland die sog. Kreuz-Stern-Notation.
 * Beschreiben Sie was man darunter versteht und begründen Sie warum diese hilfreich und Notwendig ist.
 
-* Vergleichen Sie das vom DIMDI herausgegebene System der ICD-Alpha-ID mit dem für den amtlichen ICD-10 Katalog und begründigen Sie die Vorteile des Alpha Systems
+* Vergleichen Sie das vom DIMDI herausgegebene System der ICD-Alpha-ID mit dem amtlichen ICD Katalog und begründigen Sie die Vorteile des Alpha Systems
 
 ## 3 - Erlösberchnung
 * Nennen Sie die Formeln nach denen im DRG (Diagnosis Related Groups) System die Erlöse aus der Krankenhausbehadlung berechnet werden.
