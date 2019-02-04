@@ -103,8 +103,8 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 * Überschneidungsfreiheit:
     * Semantisches Bezugssystem **wechselt** zwischen **Ätiologie** und **Organsystem** (Probleme durch Überschneidungen!)
     * deshalb Kreuz-Stern-Notation mit Querverweisen auf in anderen Kapiteln doppelt aufgeführte Diagnosen:
-    - Kreuz: Ätiologisches Bezugssystem (Ursache)
-    - Stern: Organsystem-Bezug (betroffenes Organ)
+        - Kreuz: Ätiologisches Bezugssystem (Ursache)
+        - Stern: Organsystem-Bezug (betroffenes Organ)
 ---
 ### Vergleich ICD-10 / OPS
 * Verwendungszwecks:
