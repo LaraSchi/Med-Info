@@ -23,7 +23,7 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 * Vergleichen Sie das Klassifikationsystem ICD-10 mit dem Klassifikationssystems OPS hinsichtslich:
     * des Verwendungszwecks
     * des symantischen Bezugssystems
-    * sowie des geografischen Vergleichungsgrads
+    * sowie des geografischen Verbreitungsgrads
 * Erläutern Sie mit einem Satz in welchem Zusammenhang beide Systeme mit dem DRG System stehen.
 ----
 
@@ -46,15 +46,15 @@ Was unterscheidet das medizinische Ordnungssystem von ICD-O-3 von der ICD-10?
     der Ordnungssysteme.
 
 ## 5 - Recall and Precision
-Recall und Precision, sind bekanntlich Maßzahlen für die Güte eines Retrievelergebnisses. (Informationsbeschaffung)
+Recall und Precision, sind bekanntlich Maßzahlen für die Güte eines Retrievalergebnisses. (Informationsbeschaffung)
 * Definieren Sie diese beiden Begriffe unter Angabe der Berechnungsformel und erläutern Sie die Formelbestandteile.
-* Beschreiben Sie mit einem Satz wie sich das Problem der Synonyme in der Medizin auf den Recall auswirkt.
+* Beschreiben Sie mit einem Satz wie sich Probleme durch Synonyme in der Medizin auf den Recall auswirken.
 * Wie kann man die Recall Rate messen? Nennen Sie 3 Möglichkeiten? 
 
 ## 6 - KIS
 * Nennen Sie 3 allgemeine Ziele der Informationslogistik, die für ein Krankenhausinformationssystem besonders wichtig sind.
-* Erläutern Sie diese jeweils an einem Beispiel. 
-* Zur was dient die Modelliereung von KIS
+* Erläutern Sie Diese jeweils an einem Beispiel. 
+* Wofür dient die Modelliereung von KIS?
 * Nennen Sie 2 wichtige Verwendungszwecke der Modellierung
 * Begründen Sie diese.
 ----
@@ -62,7 +62,7 @@ Bei der Integration von Komponenten eines Krankenhaussystems ist es wichtig, die
 * Erklären sie die beiden Probleme anhand jeweils eines Beispieles und nennen sie auch jeweils einen Lösungsansatz.
 -----
 Die Vielfalt der technischen Heterogenität der Systeme in großen Krankenhäusern (z.B.: Unikliniken) ist hoch.
-* Führen Sie 2 wichtig Gründe auf warum man sich nicht auf das homogene Informationssystem eines einzelnen Anbieters beschränkt.
+* Führen Sie 2 wichtige Gründe auf, warum man sich nicht auf das homogene Informationssystem eines einzelnen Anbieters beschränkt.
 
 
 
@@ -71,7 +71,7 @@ Am wichtigsten in Kommunikationssystemen ist HL7. HL7 definiert das Kommunikatio
 * Trigger Events
 * Abstarct Message Definiton 
 * Encoding Rules
-    * Beschrieben Sie jeweils in ein bis 2 Sätzen, was diese 3 bedeuten.
+    * Beschrieben Sie jeweils in ein bis zwei Sätzen, was diese 3 bedeuten.
 
 ## 8 - Kommunikationsserver
 * Beschreiben Sie die wichtigsten Aufgaben eines Kommunikationsservers in einem KIS, mit verteilter Datenhaltung 
@@ -150,13 +150,12 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 ## Zu 4 - ICD-O-3
 ### Inhaltliche Unterschiede:
 * Schlüssel für **Onkologie** (Krebs)
-* 2 Achsig aufgebaut
-    * **Topographie** ICD-10
-    * **Morphologie** (Histologie / Ausbreitung / Differenzierung ..)
-    * Bsp: C34.1 8070/33  (ICD) (ICDO3)
+* Gibt genauere Informationen über z.B. den Tumor 
 ### Unterschiede Aufbau:
-    * ???
-    * 
+* 2 Achsig aufgebaut
+* **Topographie** ICD-10
+* **Morphologie** (Histologie / Ausbreitung / Differenzierung ..)
+* Bsp: C34.1 8070/33  (ICD) (ICDO3)
 ---
 ## Zu 5 - Recall and Precision
 * DE = Dokumentationseinheiten
@@ -198,11 +197,12 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Querverweise
 ### Daten-Integration:
 * Problem: Daten könne **nicht zugegriffen** werden
-* Bsp: Daten liegen als Papierakte oder auf anderem Sub-System vor
+* Bsp: Daten liegen als Papierakte, im falschen Dateiformat oder auf anderen Sub-Systemen vor
 * Lösung:
     * Digitalisierung der Papierakten
     * Zentrale Datenbank auf der alles gespeichert ist
     * Zentrale Datenbank mit verweisen auf Sub-Systeme
+    * Kommunikationsserver der Datenstrukturen konvertieren kann
 ### Heterogenität:
 * Kein Hersteller bietet alle gewünschten (Sub-)Systeme an
 * Austausch alter Systeme wäre zu teuer (jährliches dazuschalten von neuen Systemen)
@@ -223,22 +223,27 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Wie werden die Daten **technisch** dargestellt, formatiert und verpackt?
 ---
 ## Zu 8 - Kommunikationsserver
-### Nachrichten Empfang
+### Nachrichtenempfang
 * Technische Schnittstelle zum Empfänger mit Unterstützung von Transportprotokollen, wie z.B. FTP-Protokoll oder Socket-Kommunikation
 * Pufferung der eingehenden Nachricht (Achtung: Notwendig, da die Nachrichten intern meist als Warteschlange abgearbeitet werden)
 * Protokollierung der eingegangenen Nachrichten zum Zweck der Nachverfolgung
 * Acknowledgement (Quittung als Empfangsbestätigung) an den Absender
-### Nachrichtenüberprüfung
+### Nachrichtenindentifikation
 * Überprüfung der Nachrichtensyntax (formale Richtigkeit der Nachricht)
 * Inhaltliche Identifizierung und Zuordnung
 ### Nachrichtenkonvertierung
 * Passend für Subsysteme
+   * Transposition (Umorganisation der Daten, neue Reihenfolge der Felder)
+   * Transformationen (Umkodierung (Bsp: M --> männlich), Kappen von langen Texten...)
 * Benötigt dafür Wissen über Nachrichtentypen usw...
 ### Nachrichtenweiterleitung
-* Welcher Empfänger?
-* Über welchen weg?
+* Welcher Empfänger? Ggf. Vervielfältigung.
+* Über welchen Weg? 
 ### Nachrichtenweiterleitung
 * Puffer bis Empfängersystem bereit ist
 * Protokollierung des Versands
+### Fehlerbehandlung
+* Überpfüfung aller 5 Schritte
+* Ggf. Log-Daten mit Fehler erstellen.
 ![](https://i.imgur.com/ZXLkFIQ.png)
 [Bild: modif. von Lautenbacher 2018 nach Heitmann 1996]
