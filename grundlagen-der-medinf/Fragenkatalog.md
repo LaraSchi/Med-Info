@@ -47,64 +47,64 @@ Was unterscheidet das medizinische Ordnungssystem von ICD-O-3 vom ICD-10?
 
 ## 5 - Recall and Precision
 Recall und Precision, sind bekanntlich Maßzahlen für die Güte eines Retrievelergebnisses. (Informationsbeschaffung)
-* Definieren Sie diese beiden Begriffe unter Angabe der Berchnungsformel und erläutern Sie die Formelbestandteile.
-* Beschreiben Sie mit einem Satz wie sich das Problem des Synonyme in der Medizin auf den Recall auswirkt.
-* Wie kann man die Recall Rate messen, Nennen Sie 3 Möglichekiten? 
+* Definieren Sie diese beiden Begriffe unter Angabe der Berechnungsformel und erläutern Sie die Formelbestandteile.
+* Beschreiben Sie mit einem Satz wie sich das Problem der Synonyme in der Medizin auf den Recall auswirkt.
+* Wie kann man die Recall Rate messen? Nennen Sie 3 Möglichkeiten? 
 
 ## 6 - KIS
-* Nennen Sie 3 allg Ziele der Informationslogistik die für ein Krankenhausinformationssystem besonders wichtig sind.
+* Nennen Sie 3 allgemeine Ziele der Informationslogistik, die für ein Krankenhausinformationssystem besonders wichtig sind.
 * Erläutern Sie diese jeweils an einem Beispiel. 
-* Zur was dient die Moddelliereung von KIS
+* Zur was dient die Modelliereung von KIS
 * Nennen Sie 2 wichtige Verwendungszwecke der Modellierung
 * Begründen Sie diese.
 ----
-Bei der Integration von Komponenten eines Krankenhaussystems ist es wichtig die Problematik der Semantik Integration und der Datenintegration zu lösen.
-* Erklären sie die Beiden Probleme anhand jeweils eines Beispieles und nennen sie auch jeweils einen Lösungsansatz.
+Bei der Integration von Komponenten eines Krankenhaussystems ist es wichtig, die Problematik der Semantik Integration und der Datenintegration zu lösen.
+* Erklären sie die beiden Probleme anhand jeweils eines Beispieles und nennen sie auch jeweils einen Lösungsansatz.
 -----
-Die Vielfallt der technischen Heterogenität der Systeme in großen Krankenhäausern (z.B.: Unikliniken) ist hoch.
-* Führen Sie 2 wichtig Gründe auf warum man sich nicht auf das homogene Informationssystems eines einzelnen Anbieters beschränkt.
+Die Vielfalt der technischen Heterogenität der Systeme in großen Krankenhäusern (z.B.: Unikliniken) ist hoch.
+* Führen Sie 2 wichtig Gründe auf warum man sich nicht auf das homogene Informationssystem eines einzelnen Anbieters beschränkt.
 
 
 
 ## 7 - HL7
-Am wichtigsten im Kommunikationssystemen ist HL7. HL7 definiert das Kommunikationssystem aus 3 verschieden Blickwinkeln.
+Am wichtigsten in Kommunikationssystemen ist HL7. HL7 definiert das Kommunikationssystem aus 3 verschieden Blickwinkeln.
 * Trigger Events
 * Abstarct Message Definiton 
 * Encoding Rules
-    * Beschrieben Sie jeweils in ein bis 2 Sätzen was dieses 3 bedeuten.
+    * Beschrieben Sie jeweils in ein bis 2 Sätzen, was diese 3 bedeuten.
 
 ## 8 - Kommunikationsserver
-* Beschreiebn Sie die wichtigsten Aufgaben eines Kommunikationsservers in einem KIS, mit verteilter Datenhaltung 
+* Beschreiben Sie die wichtigsten Aufgaben eines Kommunikationsservers in einem KIS, mit verteilter Datenhaltung 
 
 # Mögliche Antworten
 Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 ## Zu 1 - Terminologische Kontrolle
 * Terminologische Kontrolle:
     * **Maßnahmen**, die direkt oder indirekt der Definition und Abgrenzung der Begriffe und der **Zuordnung von Benennungen und Begriffen** dienen, [nach Gauss 2005]
-    * Also Maßnahmen die genau Beschreiben wie gewissen Sachen beschrieben werden müssen
+    * Also Maßnahmen, die genau Beschreiben wie gewissen Sachen beschrieben werden müssen
 * Probleme (P) der Fachsprache die Maßnahmen (M) der Term.Kont nötig macht:
     * Synonyme (anderes Wort, gleiche Bedeutung)
         * Bsp: Wadenbeinbruch = Fibulafraktur
         * P: **Unvollständige** Suchergebnisse
         * M: **Äquivalenzklassen**
              Benennungregeln (Bsp: Nur Latein)
-    * Homonyme (geleiches Wort, andere Bedeutung)
+    * Homonyme (gleiches Wort, andere Bedeutung)
         * Bsp: OB = Ohne Befund oder Oberbauch ...
         * P: **Irrelevante** Suchergebnisse 
         * M: **Zusatzinformationen** / Hinweise
-    * Hyponyme (Oberbegriffe) / Hyperonyme (Untebegriffe)
+    * Hyponyme (Oberbegriffe) / Hyperonyme (Unterbegriffe)
         * Bsp: Myokardinfarkt > Hinter/Seiten/Vorderwandinfarkt
         * P: **Unvollständige** Suchergebnisse
         * M: Systematische Anordnung der Begriffe (**Hierarchie**)
 ## Zu 2 - ICD-10
 ### IDC-10 Anforderungen
 * Vollständigkeit:
-    * **Nahezu Vollständig**, da regelmäßig aktualisiert
+    * **Nahezu vollständig**, da regelmäßig aktualisiert
 * Überschneidungsfreiheit:
     * Semantisches Bezugssystem **wechselt** zwischen **Ätiologie** und **Organsystem** (Probleme durch Überschneidungen!)
     * deshalb Kreuz-Stern-Notation mit Querverweisen auf in anderen Kapiteln doppelt aufgeführte Diagnosen:
     - Kreuz: Ätiologisches Bezugssystem (Ursache)
-    - Stern: Organsystem-Bezug (Betroffenes Organ)
+    - Stern: Organsystem-Bezug (betroffenes Organ)
 ---
 ### Vergleich ICD-10 / OPS
 * Verwendungszwecks:
@@ -135,7 +135,7 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 ## Zu 3 - Erlösberechnung
 * G-DRG-Erlös = **Basisfallwert * Bewertungsrelation** (BR)
 * Basisfallwert:
-    * Landesweit einheitlicher Geldbetrag (ca 3450€), der bei der Berechnung der DRG-Erlöse für die Krankenhausbehandlung verwendet wird 
+    * Landesweit einheitlicher Geldbetrag (ca 3450 €), der bei der Berechnung der DRG-Erlöse für die Krankenhausbehandlung verwendet wird 
 * Bewertungsrelation:
     *  Bundesweit gültige Kennzahl, die für jede einzelne G-DRG-Fallgruppe auf Basis einer Kostenkalkulation (erstellt durch Institut für das Entgeldsystem im Krankenhaus) festgelegt wird.
 * Casemix (CM):
