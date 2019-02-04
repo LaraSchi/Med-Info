@@ -1,5 +1,7 @@
 # Informatik 1
 bei Prof. Grust
+## Info1 Probeklausur
+- Probeklausur von Grust WS12/13
 
 ## Info1 Hausübungsblätter
 Hier findet ihr den Code der Hausübungen der Info1 Vorlesung WS18/19 bei Prof.Grust.
