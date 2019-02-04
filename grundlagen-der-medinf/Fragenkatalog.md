@@ -118,6 +118,9 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     deshalb Kreuz-Stern-Notation mit Querverweisen auf in anderen Kapiteln doppelt aufgeführte Diagnosen:
     * OPS:
       Primär der Lokalisation nach
+* Verbreitung:
+   * ICD-10: Weltweit gültiges System. Wird von WHO herausgegeben.
+   * OPS: Verbindlich für Deutsche Krankenhäusern.
 * Zusammenhang zum DRG-System:
         Verwendung der OPS und ICD-10 neben Diagnosen Prozedurencodes etc. für die **Eingruppierung der Patienten in DRG-Klassen**, welche sich mit den Kosten der Behandlungen in den Krankenhäusern beschäftigt.
 ------
