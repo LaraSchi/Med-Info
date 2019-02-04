@@ -17,7 +17,7 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 * Nennen Sie 4 Wichtigste Probleme der Med. Fachsprache die eine Terminologische Kontrolle notwendig macht.
 * Und Erläutern sie mögliche Maßnahmen
 
-## 2 - IDC-10
+## 2 - ICD-10
 * Erlätuern Sie inwieweit die ICD-10 alle Anforderungen an Vollständigkeit und Überschneidungsfreiheit genügt
 
 * Vergleichen Sie das Klassifikationsystem ICD-10 mit dem Klassifikationssystems OPS hinsichtslich:
