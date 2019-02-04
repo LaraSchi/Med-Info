@@ -111,7 +111,7 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * ICD-10:
       **Klassifizierung** von **Diagnosen** für eine klarere Kommunikation, Dokumentation, **Kostenabrechnung** (Gruppierung in DRG) und Statistik
     * OPS:
-      Klassifizierung von Prozeduren und Operationen für Dokumentation, **Kostenabrechnung** (DRG), Qualitätssicherung
+      Klassifizierung von **Prozeduren und Operationen** für Dokumentation, **Kostenabrechnung** (DRG), Qualitätssicherung
 * semantischen Bezugssystems:
     * IDC-10:
       wechsel zwischen Ätiologie und Organsystem (Probleme durch Überschneidungen!),
@@ -148,13 +148,13 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Mittlere Bewertungsrelation als Kennzahl
 ---
 ## Zu 4 - ICD-O-3
-* Inhaltliche Unterschiede:
-    * Schlüssel für **Onkologie** (Krebs)
-    * 2 Achsig aufgebaut
-        * **Topographie** ICD-10
-        * **Morphologie** (Histologie / Ausbreitung / Differenzierung ..)
-        * Bsp: C34.1 8070/33  (ICD) (ICDO3)
-* Unterschiede Aufbau:
+### Inhaltliche Unterschiede:
+* Schlüssel für **Onkologie** (Krebs)
+* 2 Achsig aufgebaut
+    * **Topographie** ICD-10
+    * **Morphologie** (Histologie / Ausbreitung / Differenzierung ..)
+    * Bsp: C34.1 8070/33  (ICD) (ICDO3)
+### Unterschiede Aufbau:
     * ???
     * 
 ---
@@ -176,37 +176,37 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Heimlich eingeschleuste Dokumente mit den Selektionsmerkmalen; hinterher Abfrage dieser Dokumente im Dokumentenspeicher 
 ---
 ## Zu 6 - KIS
-* Ziele / Beispiele:
-    * „**Die richtigen Informationen**“ | Letzten Laborwerte von Patient X
-    * „**in der richtigen Form**“ | Zusammengefasst und Sortiert
-    * „**den richtigen Personen**“ | dem Arzt der sie braucht
-    * „**zum richtigen Zeitpunkt**“ | wenn der Patient im Behandlungsraum ist
-    * „**an den richtigen Ort**“ | Auf dem Bildschirm im Behandlungsraum
+### Ziele / Beispiele:
+* „**Die richtigen Informationen**“ | Letzten Laborwerte von Patient X
+* „**in der richtigen Form**“ | Zusammengefasst und Sortiert
+* „**den richtigen Personen**“ | dem Arzt der sie braucht
+* „**zum richtigen Zeitpunkt**“ | wenn der Patient im Behandlungsraum ist
+* „**an den richtigen Ort**“ | Auf dem Bildschirm im Behandlungsraum
 
-* Modelierung KIS:
-    * Die Auswahl von KIS-Komponenten und damit die Bewertung ihrer Brauchbarkeit für ein Krankenhaus setzt eine **vollständige** und widerspruchsfreie Beschreibung **der Anforderungen** voraus. 
-    * Das **Management** des KIS sowie seiner Komponenten ist auf solche **Beschreibungen** angewiesen. Management = Planung + Steuerung + Überwachung
-    * Systembeschreibungen sind Grundlage für das **customizing** kommerzieller Systeme (Customizing = kundenspezifische Systemanpassungen im Rahmen der durch den Hersteller vorgegebenen Möglichkeiten)
-    * Systembeschreibungen sind Grundlage für die softwaretechnische KIS-**Entwicklung** (z.B. Eigenentwicklungen durch das Krankenhaus, kommerzielle Entwicklungen)
+### Modelierung KIS:
+* Die Auswahl von KIS-Komponenten und damit die Bewertung ihrer Brauchbarkeit für ein Krankenhaus setzt eine **vollständige** und widerspruchsfreie Beschreibung **der Anforderungen** voraus. 
+* Das **Management** des KIS sowie seiner Komponenten ist auf solche **Beschreibungen** angewiesen. Management = Planung + Steuerung + Überwachung
+* Systembeschreibungen sind Grundlage für das **customizing** kommerzieller Systeme (Customizing = kundenspezifische Systemanpassungen im Rahmen der durch den Hersteller vorgegebenen Möglichkeiten)
+* Systembeschreibungen sind Grundlage für die softwaretechnische KIS-**Entwicklung** (z.B. Eigenentwicklungen durch das Krankenhaus, kommerzielle Entwicklungen)
 ---
-* Semantik-Integration:
-    * Problem: **keine** systemübergreifend gültigen **einheitlichen** **Bezeichnungen** für dieselben Dinge, Geräte, Untersuchungsmethoden usw.
-    * Bsp: Lungenübersichtsaufnahme = Thorax p.a.
-    * Lösung:
-        * Vereinbarung Vokabular
-        * Einheitliche Codes
-        * Querverweise
-* Daten-Integration:
-    * Problem: Daten könne **nicht zugegriffen** werden
-    * Bsp: Daten liegen als Papierakte oder auf anderem Sub-System vor
-    * Lösung:
-        * Digitalisierung der Papierakten
-        * Zentrale Datenbank auf der alles gespeichert ist
-        * Zentrale Datenbank mit verweisen auf Sub-Systeme
-* Heterogenität:
-    * Kein Hersteller bietet alle gewünschten (Sub-)Systeme an
-    * Austausch alter Systeme wäre zu teuer (jährliches dazuschalten von neuen Systemen)
-    * Andere (Partner)-Krankenhäuser nutzen andere Systeme
+### Semantik-Integration:
+* Problem: **keine** systemübergreifend gültigen **einheitlichen** **Bezeichnungen** für dieselben Dinge, Geräte, Untersuchungsmethoden usw.
+ * Bsp: Lungenübersichtsaufnahme = Thorax p.a.
+ * Lösung:
+    * Vereinbarung Vokabular
+    * Einheitliche Codes
+    * Querverweise
+### Daten-Integration:
+* Problem: Daten könne **nicht zugegriffen** werden
+* Bsp: Daten liegen als Papierakte oder auf anderem Sub-System vor
+* Lösung:
+    * Digitalisierung der Papierakten
+    * Zentrale Datenbank auf der alles gespeichert ist
+    * Zentrale Datenbank mit verweisen auf Sub-Systeme
+### Heterogenität:
+* Kein Hersteller bietet alle gewünschten (Sub-)Systeme an
+* Austausch alter Systeme wäre zu teuer (jährliches dazuschalten von neuen Systemen)
+* Andere (Partner)-Krankenhäuser nutzen andere Systeme
 ---
 ## Zu 7 - HL7
 * Trigger Events:
@@ -223,22 +223,22 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
     * Wie werden die Daten **technisch** dargestellt, formatiert und verpackt?
 ---
 ## Zu 8 - Kommunikationsserver
-* **Nachrichten Empfang**
-    * Technische Schnittstelle zum Empfänger mit Unterstützung von Transportprotokollen, wie z.B. FTP-Protokoll oder Socket-Kommunikation
-    * Pufferung der eingehenden Nachricht (Achtung: Notwendig, da die Nachrichten intern meist als Warteschlange abgearbeitet werden)
-    * Protokollierung der eingegangenen Nachrichten zum Zweck der Nachverfolgung
-    * Acknowledgement (Quittung als Empfangsbestätigung) an den Absender
-* **Nachrichtenüberprüfung**
-    * Überprüfung der Nachrichtensyntax (formale Richtigkeit der Nachricht)
-    * Inhaltliche Identifizierung und Zuordnung
-* **Nachrichtenkonvertierung**
-    * Passend für Subsysteme
-    * Benötigt dafür Wissen über Nachrichtentypen usw...
-* **Nachrichtenweiterleitung**
-    * Welcher Empfänger?
-    * Über welchen weg?
-* **Nachrichtenweiterleitung**
-    * Puffer bis Empfängersystem bereit ist
-    * Protokollierung des Versands
+### Nachrichten Empfang
+* Technische Schnittstelle zum Empfänger mit Unterstützung von Transportprotokollen, wie z.B. FTP-Protokoll oder Socket-Kommunikation
+* Pufferung der eingehenden Nachricht (Achtung: Notwendig, da die Nachrichten intern meist als Warteschlange abgearbeitet werden)
+* Protokollierung der eingegangenen Nachrichten zum Zweck der Nachverfolgung
+* Acknowledgement (Quittung als Empfangsbestätigung) an den Absender
+### Nachrichtenüberprüfung
+* Überprüfung der Nachrichtensyntax (formale Richtigkeit der Nachricht)
+* Inhaltliche Identifizierung und Zuordnung
+### Nachrichtenkonvertierung
+* Passend für Subsysteme
+* Benötigt dafür Wissen über Nachrichtentypen usw...
+### Nachrichtenweiterleitung
+* Welcher Empfänger?
+* Über welchen weg?
+### Nachrichtenweiterleitung
+* Puffer bis Empfängersystem bereit ist
+* Protokollierung des Versands
 ![](https://i.imgur.com/ZXLkFIQ.png)
 [Bild: modif. von Lautenbacher 2018 nach Heitmann 1996]
