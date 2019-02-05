@@ -18,7 +18,7 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 * Und Erläutern sie mögliche Maßnahmen
 
 ## 2 - ICD-10
-* Erlätuern Sie inwieweit die ICD-10 alle Anforderungen an Vollständigkeit und Überschneidungsfreiheit genügt
+* Erläutern Sie inwieweit die ICD-10 alle Anforderungen an Vollständigkeit und Überschneidungsfreiheit genügt.
 
 * Vergleichen Sie das Klassifikationsystem ICD-10 mit dem Klassifikationssystems OPS hinsichtslich:
     * des Verwendungszwecks
@@ -27,13 +27,13 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 * Erläutern Sie mit einem Satz in welchem Zusammenhang beide Systeme mit dem DRG System stehen.
 ----
 
-Beim medizinischen Ordnungssystem ICD10 verwendet man in Deutschland die sog. Kreuz-Stern-Notation.
+Beim medizinischen Ordnungssystem ICD-10 verwendet man in Deutschland die sog. Kreuz-Stern-Notation.
 * Beschreiben Sie was man darunter versteht und begründen Sie warum diese hilfreich und Notwendig ist.
 
 * Vergleichen Sie das vom DIMDI herausgegebene System der ICD-Alpha-ID mit dem amtlichen ICD Katalog und begründigen Sie die Vorteile des Alpha Systems
 
 ## 3 - Erlösberchnung
-* Nennen Sie die Formeln nach denen im DRG (Diagnosis Related Groups) System die Erlöse aus der Krankenhausbehadlung berechnet werden.
+* Nennen Sie die Formel nach der im DRG (Diagnosis Related Groups) System die Erlöse der Krankenhausbehadlung berechnet wird.
 * Erläutern Sie die Formelbestandteile
 (Produkt aus x und y)
 * Erklären Sie was man in diesem Zusammenhang unter einem DRG Case Mix und einem Case Mix Index versteht.
@@ -80,7 +80,7 @@ Am wichtigsten in Kommunikationssystemen ist HL7. HL7 definiert das Kommunikatio
 Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
 ## Zu 1 - Terminologische Kontrolle
 * Terminologische Kontrolle:
-    * **Maßnahmen**, die direkt oder indirekt der Definition und Abgrenzung der Begriffe und der **Zuordnung von Benennungen und Begriffen** dienen, [nach Gauss 2005]
+    * **Maßnahmen**, die direkt oder indirekt der Definition und Abgrenzung der Begriffe und der **Zuordnung von Benennungen und Begriffen** dienen. [nach Gauss 2005]
     * Also Maßnahmen, die genau Beschreiben wie gewissen Sachen beschrieben werden müssen
 * Probleme (P) der Fachsprache die Maßnahmen (M) der Term.Kont nötig macht:
     * Synonyme (anderes Wort, gleiche Bedeutung)
@@ -122,7 +122,7 @@ Diese Antworten sind nur exemplarisch und sind vermutlich nicht vollständig.
    * ICD-10: Weltweit gültiges System. Wird von WHO herausgegeben.
    * OPS: Verbindlich für Deutsche Krankenhäusern.
 * Zusammenhang zum DRG-System:
-        Verwendung der OPS und ICD-10 neben Diagnosen Prozedurencodes etc. für die **Eingruppierung der Patienten in DRG-Klassen**, welche sich mit den Kosten der Behandlungen in den Krankenhäusern beschäftigt.
+        Verwendung der OPS und ICD-10 für die **Eingruppierung der Patienten in DRG-Klassen**, welche sich mit den Kosten der Behandlungen in Krankenhäusern beschäftigt.
 ------
 * Kreuz-Stern-Notation
     * Kreuz: **Ätiologisches** Bezugssystem (Ätiologie: Lehre von den Krankheitsursachen; Gesamtheit der ursächlichen Faktoren, die zu einer bestehenden Krankheit geführt haben)
