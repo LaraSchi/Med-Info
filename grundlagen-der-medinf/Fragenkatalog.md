@@ -7,7 +7,7 @@ https://md.kif.rocks/FragenkatalogGrundlagen
 > - Mögliche Antowrten findet ihr Unten
 
 > Klausur:
-> - 4 Fragen werden ausgewählt
+> - 4 Themen werden ausgewählt
 > - 80 Minuten Zeit
 > - Mittwoch 06.02 - 10:15 
 > - selber Raum
