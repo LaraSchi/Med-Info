@@ -1,7 +1,7 @@
 https://md.kif.rocks/FragenkatalogGrundlagen
 # Fragenkatalog Grundlagen der Medizininformatik
 
-> - Mitschrieb: Jules, Lara, Harun <3 
+> - Mitschrieb: Jules <3, Lara <3, Harun <3 
 > - Fragenkatalog hat 8 Themen
 > - ca 25. Fragen
 > - Mögliche Antowrten findet ihr Unten
